@@ -48,3 +48,6 @@ Linux, por outro lado, é um sistema operacional de código aberto conhecido por
 https://x.com/alexxubyte
 
 [ESCOLHER UMA ARQUITETURA DE UM SISTEMA REAL QUE ELE DISCUTE (e.g. netflix), COLOCAR A IMAGEM QUE ELE POSTOU E DISCUTIR OS TRADE-OFFS APRESENTADOS (REQUISITOS NÃO FUNCIONAIS)]
+
+
+![architectureofnetflix](https://github.com/user-attachments/assets/5a8833d2-e534-4664-818b-a938941d346d)
