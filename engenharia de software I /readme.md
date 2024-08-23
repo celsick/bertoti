@@ -55,4 +55,63 @@ https://x.com/alexxubyte
 
 ![Mídia](https://github.com/user-attachments/assets/c45b3961-526e-449e-b499-2395eb32e0cc)
 
-## 
+## Código em Java | Classes UML
+
+<div class=cl>
+package Atividade04;
+
+import java.util.List;
+import java.util.LinkedList;
+
+public class LivroAutor {
+
+    public class Biblioteca {
+        //* Atributos
+        private String nome;
+        private String endereco;
+        private int telefone;
+        private List<Livro> livros; //* Relacionamento com a classe livros
+
+        //* Construtor de classe
+        public String getNome() {
+            return nome;
+        }
+        public void setNome(String nome) {
+            this.nome = nome;
+        }
+
+        public String getEndereco() {
+            return endereco;
+        }
+        public void setEndereco(String endereco) {
+            this.endereco = endereco;
+        }
+
+        public int getTelefone() {
+            return telefone;
+        }
+        public void setTelefone(int telefone) {
+            this.telefone = telefone;
+        }
+
+        public List<Livro> getLivros() {
+            return livros;
+        }
+        public void setLivros(List<Livro> livros) {
+            this.livros = livros;
+        }
+    }
+
+    public class Livro {
+        //* Atributos
+        private String titulo;
+        private int anoPublicacao;
+
+
+
+
+
+
+    }
+}
+</div>
