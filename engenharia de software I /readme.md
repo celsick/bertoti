@@ -49,7 +49,25 @@ https://x.com/alexxubyte
 
 ![architectureofnetflix](https://github.com/user-attachments/assets/5a8833d2-e534-4664-818b-a938941d346d)
 
-(texto)
+### 1. **Descentralização vs. Consistência**  
+**Descentralização**: A Netflix adota uma estrutura descentralizada com microservices, permitindo que equipes diferentes desenvolvam e escalem suas partes do sistema de maneira independente.  
+**Consistência**: A descentralização pode criar desafios de consistência de dados, que a Netflix aborda com sistemas de armazenamento e cache para garantir informações atualizadas, mas nem sempre em tempo real.
+
+### 2. **Escalabilidade vs. Complexidade**  
+**Escalabilidade**: A arquitetura da Netflix é feita para escalar horizontalmente, o que significa adicionar mais instâncias de serviços conforme a demanda aumenta, sem depender de um único servidor potente.  
+**Complexidade**: Essa escalabilidade e o uso de microservices aumentam a complexidade na gestão do sistema, com desafios de comunicação entre serviços, coordenação de atualizações e monitoramento.
+
+### 3. **Resiliência vs. Custo**  
+**Resiliência**: A Netflix investe em resiliência, usando técnicas como failover e redundância de dados, além de práticas como o Chaos Engineering para testar o sistema em condições adversas.  
+**Custo**: Essas medidas aumentam os custos operacionais, já que a infraestrutura, os testes e as operações necessárias para manter essa alta disponibilidade são caros.
+
+### 4. **Desempenho vs. Flexibilidade**  
+**Desempenho**: A Netflix implementa técnicas como caching, balanceamento de carga e otimização de rede para garantir alta performance no streaming.  
+**Flexibilidade**: No entanto, essas otimizações podem limitar a flexibilidade no design e evolução dos serviços, restringindo adaptações para novas demandas.
+
+### 5. **Automatização vs. Controle Manual**  
+**Automatização**: A Netflix automatiza muitas operações, incluindo implantações e gestão de falhas, o que aumenta a eficiência e minimiza erros humanos.  
+**Controle Manual**: Apesar dos benefícios, há situações em que o controle manual é necessário para lidar com problemas complexos ou mudanças específicas, criando um desafio no equilíbrio entre automação e intervenção humana.
 
 # Atividade 4: Fazer classes UML ao lado do código Java mostrando a relação entre eles, como feito no quadro | 23.8.2024
 
@@ -106,12 +124,6 @@ public class LivroAutor {
         //* Atributos
         private String titulo;
         private int anoPublicacao;
-
-
-
-
-
-
     }
 }
 </div>
